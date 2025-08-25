@@ -1,0 +1,33 @@
+{
+    "app_info": {
+        "name": "NetCDF Commander",
+        "version": "1.0.0",
+        "developer": "Papiweb Desarrollos Informáticos",
+        "website": "https://www.papiweb-desarrollos.github.io/papiweb",
+        "email": "mgenialive@gmail.com",
+        "location": "Beccar, Buenos Aires, Argentina"
+    },
+    "windows_mount_point": "/mnt/shared",
+    "output_formats": [
+        "csv",
+        "json",
+        "txt"
+    ],
+    "default_output_format": "csv",
+    "log_level": "INFO",
+    "log_file": "nc_handler.log",
+    "compression": true,
+    "encoding": "utf-8",
+    "date_format": "%Y-%m-%d %H:%M:%S",
+    "windows_paths": {
+        "shared_folder": "//server/shared",
+        "mount_command": "sudo mount -t cifs //server/shared /mnt/shared -o username=user,password=pass"
+    },
+    "interface": {
+        "show_hidden": false,
+        "sort_by": "name",
+        "panel_width": 40,
+        "preview_enabled": true,
+        "show_splash": true
+    }
+}
